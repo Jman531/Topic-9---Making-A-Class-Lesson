@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            List<Student> students = new List<Student>();
+
+            students.Add(new Student("Robert", "Ross"));
+            students.Add(new Student("Jim", "Smith"));
+            students.Add(new Student("Jack", "Gallagher"));
         }
     }
 }
